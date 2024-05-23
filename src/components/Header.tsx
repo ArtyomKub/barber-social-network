@@ -3,7 +3,7 @@ import React from 'react';
 export const Header = () => {
     return (
         <header className="header">
-            <img src="https://th.bing.com/th/id/OIP.fCDkjGeHw9blnre1P9Vj9wHaHa?rs=1&pid=ImgDetMain" alt="logo"/>
+            <img src="https://png.pngtree.com/png-vector/20220606/ourmid/pngtree-barbershop-logo-png-image_4925346.png" alt="logo"/>
         </header>
     );
 };
