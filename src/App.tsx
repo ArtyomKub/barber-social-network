@@ -6,15 +6,15 @@ import {Footer} from './Footer';
 
 function App() {
     return (
-        <div className={'app-wrapper'}>
-            <header className={'header'}>
-                <img src="https://i.pinimg.com/736x/8d/0c/79/8d0c79c25cee23c9af669d1ff9ee4246.jpg" alt="logo"/>
+        <div className='app-wrapper'>
+            <header className='header'>
+                <img src="https://th.bing.com/th/id/OIP.fCDkjGeHw9blnre1P9Vj9wHaHa?rs=1&pid=ImgDetMain" alt="logo"/>
             </header>
-            <nav className={"nav"}>
+            <nav className="nav">
                 <div>Profile</div>
                 <div>Messages</div>
             </nav>
-            <div className={'content'}>
+            <div className='content'>
                 Main content
             </div>
 
