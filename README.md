@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+<h1>Hi! In this project I will be start to create a Social Network for Barbers</h1>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
