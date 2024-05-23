@@ -51,9 +51,6 @@ function App() {
             </div>
 
 
-            {/*<Header/>*/}
-            {/*<Technologies/>*/}
-            {/*<Footer/>*/}
         </div>
     );
 }
