@@ -1,10 +1,11 @@
 import React from 'react';
 
-export const Footer = () => {
+const Header = () => {
     return (
         <div>
-            Hackers Fuckers
+            
         </div>
     );
 };
 
+export default Header;
