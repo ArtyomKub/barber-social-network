@@ -6,7 +6,7 @@ import {Footer} from './Footer';
 
 function App() {
     return (
-        <div>
+        <div className={'app-wrapper'}>
             <header>
                 <img src="https://i.pinimg.com/736x/8d/0c/79/8d0c79c25cee23c9af669d1ff9ee4246.jpg" alt="logo"/>
             </header>
@@ -17,8 +17,6 @@ function App() {
             <div>
                 Main content
             </div>
-
-
 
 
             {/*<Header/>*/}
