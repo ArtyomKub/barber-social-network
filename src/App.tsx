@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
+import {Header} from './components/Header';
 
 
 function App() {
     return (
         <div className="app-wrapper">
-            <header className="header">
-                <img src="https://th.bing.com/th/id/OIP.fCDkjGeHw9blnre1P9Vj9wHaHa?rs=1&pid=ImgDetMain" alt="logo"/>
-            </header>
+            <Header/>
             <nav className="nav">
                 <div>
                     <a>Profile</a>
@@ -33,7 +32,9 @@ function App() {
                 </div>
                 <div>
                     ava+description
-                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/117e64133348381.61bb4e7066391.jpg" alt="portrait"/>
+                    <img
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/117e64133348381.61bb4e7066391.jpg"
+                        alt="portrait"/>
                 </div>
                 <div>
                     My posts
