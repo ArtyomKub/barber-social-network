@@ -7,14 +7,14 @@ import {Footer} from './Footer';
 function App() {
     return (
         <div className={'app-wrapper'}>
-            <header>
+            <header className={'header'}>
                 <img src="https://i.pinimg.com/736x/8d/0c/79/8d0c79c25cee23c9af669d1ff9ee4246.jpg" alt="logo"/>
             </header>
-            <nav>
+            <nav className={"nav"}>
                 <div>Profile</div>
                 <div>Messages</div>
             </nav>
-            <div>
+            <div className={'content'}>
                 Main content
             </div>
 
