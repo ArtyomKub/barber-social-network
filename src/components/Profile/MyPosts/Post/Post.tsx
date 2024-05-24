@@ -5,7 +5,7 @@ export const Post = () => {
     return (
         <div className={s.item}>
             <img
-                src="https://e3.365dm.com/21/10/768x432/skynews-colin-kaepernick-black-and-white_5561588.jpg?20211027182700"
+                src="https://www.famousbirthdays.com/faces/siriboe-kofi-image.jpg"
                 alt="avatar"/>
             Post 1
             <div>
