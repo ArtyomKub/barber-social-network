@@ -5,9 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*background-image: url('https://wallpapers.com/images/hd/barber-pole-spiral-design-8uhwftncpmvaxz1c.jpg');*/
-  /*background-size: 100%*/
-  background-image: url("https://media.istockphoto.com/id/2026972501/pl/filmy/closeup-hairdressing-scissors-and-barber-accessories-in-hair-salon-professional-tools-for.mp4?s=mp4-640x640-is&k=20&c=4VMqBT8NVhay67xPKPg9zPwx0UygSoQChM5wPdfyVk0=");
 }
 
 code {
@@ -19,5 +16,8 @@ code {
   position: fixed;
   z-index: -1;
   width: 100%;
+}
 
+.cover {
+  object-fit: cover;
 }
