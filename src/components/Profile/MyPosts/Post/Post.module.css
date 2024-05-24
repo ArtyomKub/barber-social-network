@@ -2,3 +2,16 @@
     color: greenyellow;
     font-weight: bold;
 }
+
+.item img {
+    width: 50px;
+    /*border-style: solid;*/
+    /*border-color: whitesmoke;*/
+    /*border-radius: 100px;*/
+    border-radius: 50%;
+    border-style: double;
+    border-color: whitesmoke;
+    overflow: hidden;
+    height: 50px;
+
+}
