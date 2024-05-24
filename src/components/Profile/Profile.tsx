@@ -12,9 +12,6 @@ export const Profile = () => {
             </div>
             <div>
                 ava+description
-                <img
-                    src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/117e64133348381.61bb4e7066391.jpg"
-                    alt="portrait"/>
             </div>
             <MyPosts/>
         </div>
