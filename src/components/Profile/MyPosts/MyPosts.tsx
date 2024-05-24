@@ -14,12 +14,10 @@ export const MyPosts = () => {
                 </div>
             </div>
             <div className={s.posts}>
-                <Post/>
-                <Post/>
-                <Post/>
-                <Post/>
-                <Post/>
-                <Post/>
+                <Post message = 'Hi! I am looking a good Barber'/>
+                <Post message = 'What a FUCK!'/>
+                <Post message = 'Ulyana is the Best Barber'/>
+                <Post message = 'No, the best Barber is Maximus'/>
             </div>
         </div>
     );
