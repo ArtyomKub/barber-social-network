@@ -14,7 +14,7 @@ export const Post = (props: PostType) => {
                 alt="avatar"/>
             {props.message}
             <div>
-                <span>Like: {props.likesCount}</span>
+                <span>Likes: {props.likesCount}</span>
             </div>
         </div>
     );
