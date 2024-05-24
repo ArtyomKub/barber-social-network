@@ -18,11 +18,11 @@ export const Profile = () => {
             <div>
                 My posts
                 <div>New post</div>
-                <div>
-                    <div>Post 1</div>
-                    <div>Post 2</div>
-                    <div>Post 3</div>
-                    <div>Post 4</div>
+                <div className='posts'>
+                    <div className='item'>Post 1</div>
+                    <div className='item'>Post 2</div>
+                    <div className='item'>Post 3</div>
+                    <div className='item'>Post 4</div>
                 </div>
             </div>
         </div>
