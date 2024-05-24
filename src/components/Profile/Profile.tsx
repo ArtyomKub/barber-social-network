@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Profile.module.css';
+import {MyPosts} from './MyPosts/MyPosts';
 
 export const Profile = () => {
     return (
@@ -15,16 +16,7 @@ export const Profile = () => {
                     src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/117e64133348381.61bb4e7066391.jpg"
                     alt="portrait"/>
             </div>
-            <div>
-                My posts
-                <div>New post</div>
-                <div className={s.posts}>
-                    <div className={s.item}>Post 1</div>
-                    <div className={s.item}>Post 2</div>
-                    <div className={s.item}>Post 3</div>
-                    <div className={s.item}>Post 4</div>
-                </div>
-            </div>
+            <MyPosts/>
         </div>
     );
 };
