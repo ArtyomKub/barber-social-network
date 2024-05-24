@@ -11,13 +11,13 @@ export const Navbar = () => {
                 <a href='/dialogs'>MESSAGES</a>
             </div>
             <div className={s.item}>
-                <a href='/profile'>NEWS</a>
+                <a href='/news'>NEWS</a>
             </div>
             <div className={s.item}>
-                <a href='/profile'>MUSIC</a>
+                <a href='/music'>MUSIC</a>
             </div>
             <div className={s.item}>
-                <a href='/profile'>SETTINGS</a>
+                <a href='/settings'>SETTINGS</a>
             </div>
         </nav>
     );
