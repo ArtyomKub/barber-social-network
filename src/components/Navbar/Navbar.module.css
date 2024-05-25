@@ -13,6 +13,6 @@
 
 .item a.active {
     color: saddlebrown;
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: none;
 }

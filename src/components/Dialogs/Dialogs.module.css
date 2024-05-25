@@ -7,6 +7,12 @@
     padding: 30px;
 }
 
+.dialogsItems .active {
+    color: saddlebrown;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .messages {
     padding: 30px;
 }
