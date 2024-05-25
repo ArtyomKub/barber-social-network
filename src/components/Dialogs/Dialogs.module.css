@@ -20,3 +20,16 @@
 .messages .message {
 
 }
+
+
+.item a{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.item a.active {
+    color: saddlebrown;
+    font-weight: bold;
+    text-decoration: none;
+}
