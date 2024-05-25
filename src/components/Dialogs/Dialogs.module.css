@@ -1,8 +1,8 @@
 .dialogs {
-
+    display: grid;
 }
 
-.dialogsItems .dialog{
+.dialogsItems .dialog {
 
 }
 
@@ -10,6 +10,6 @@
 
 }
 
-.messages .message{
+.messages .message {
 
 }
