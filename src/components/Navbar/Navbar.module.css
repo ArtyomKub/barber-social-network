@@ -4,12 +4,12 @@
     color: white;
 }
 
-.item {
+.item a{
     color: whitesmoke;
     font-weight: bold;
 }
 
-.item.active {
+.item a.active {
     color: saddlebrown;
     font-weight: bolder;
     text-decoration: underline;
