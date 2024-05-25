@@ -16,16 +16,16 @@ export const Dialogs = () => {
 
                 </div>
                 <div className={s.dialog}>
-                    <NavLink to='/dialogs/1'>Uliana</NavLink>
+                    <NavLink to='/dialogs/2'>Uliana</NavLink>
                 </div>
                 <div className={s.dialog}>
-                    <NavLink to='/dialogs/1'>Teona</NavLink>
+                    <NavLink to='/dialogs/3'>Teona</NavLink>
                 </div>
                 <div className={s.dialog}>
-                    <NavLink to='/dialogs/1'>Sofia</NavLink>
+                    <NavLink to='/dialogs/4'>Sofia</NavLink>
                 </div>
                 <div className={s.dialog}>
-                    <NavLink to='/dialogs/1'>Natalia</NavLink>
+                    <NavLink to='/dialogs/5'>Natalia</NavLink>
                 </div>
             </div>
             <div className={s.messages}>
