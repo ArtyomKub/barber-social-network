@@ -7,7 +7,7 @@ export const Dialogs = () => {
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-                <div >
+                <div>
                     <div>
                         <NavLink to={'dialogs/1'}
                                  className={dialogsData => dialogsData.isActive ? s.active : s.dialogsItems}>Artsem</NavLink>
