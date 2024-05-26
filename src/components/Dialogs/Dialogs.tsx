@@ -25,6 +25,7 @@ export const Dialogs = () => {
                                  className={dialogsData => dialogsData.isActive ? s.active : s.dialogsItems}>Sofia</NavLink>
                     </div>
                     <div>
+
                         <NavLink to={'dialogs/5'}
                                  className={dialogsData => dialogsData.isActive ? s.active : s.dialogsItems}>Natalia</NavLink>
                     </div>
