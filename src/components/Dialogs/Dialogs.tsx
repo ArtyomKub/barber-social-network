@@ -7,25 +7,27 @@ export const Dialogs = () => {
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-                <div className={s.dialog + ' ' + s.active}>
-                   <NavLink to='/dialogs/1'>Artyom</NavLink>
-
-
-                    {/*<NavLink to="/profile" className={navData => navData.isActive ? s.active : s.item}>PROFILE</NavLink>*/}
-
-
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to='/dialogs/2'>Uliana</NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to='/dialogs/3'>Teona</NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to='/dialogs/4'>Sofia</NavLink>
-                </div>
-                <div className={s.dialog}>
-                    <NavLink to='/dialogs/5'>Natalia</NavLink>
+                <div >
+                    <div>
+                        <NavLink to={'dialogs/1'}
+                                 className={dialogsData => dialogsData.isActive ? s.active : s.dialogsItems}>Artsem</NavLink>
+                    </div>
+                    <div>
+                        <NavLink to={'dialogs/2'}
+                                 className={dialogsData => dialogsData.isActive ? s.active : s.dialogsItems}>Ulyana</NavLink>
+                    </div>
+                    <div>
+                        <NavLink to={'dialogs/3'}
+                                 className={dialogsData => dialogsData.isActive ? s.active : s.dialogsItems}>Teona</NavLink>
+                    </div>
+                    <div>
+                        <NavLink to={'dialogs/4'}
+                                 className={dialogsData => dialogsData.isActive ? s.active : s.dialogsItems}>Sofia</NavLink>
+                    </div>
+                    <div>
+                        <NavLink to={'dialogs/5'}
+                                 className={dialogsData => dialogsData.isActive ? s.active : s.dialogsItems}>Natalia</NavLink>
+                    </div>
                 </div>
             </div>
             <div className={s.messages}>
